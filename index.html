@@ -1,9 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>APP</title>
-    </head>
-    <body>
-        <h1>App Service</h1>
-    </body>
+
+<head>
+    <title>APP</title>
+</head>
+
+<body>
+    <h1>App Service</h1>
+    <hr>
+    <p>
+        Este es un texto <span style="color: red;">importante</span> en un párrafo.
+        <br>
+        Continuando con el texto en un salto de linea
+    </p>
+    <a href="https://www.google.com.co">Ir a Google en esta pestaña</a> 
+    <br>
+    <a target="_blank" href="https://www.google.com.co">Ir a Google en otra pestaña</a>
+    <br>
+    
+    <!-- NOTA: Solo usar width o height no ambas al tiempo porque se deformará la imagen -->
+    <img src="./img/htmlLogo.png" alt="Logo de HTML5" width="300" height="300">    
+
+    
+    <!-- Action es la ruta a donde se envian los datos del formulario -->
+    <!-- method 
+        GET     para enviar por URL (Hay un limite comúnmente es alrededor de 2048 caracteres.)
+        POST    para enviar en las cabeceras en lugar de la URL (Sin limite, ideal para grandes formularios)
+     -->
+    <form action="/formulario" method="post">
+        <!-- for es para direccionar el clic al cuadro de input , usar for para el id del input -->
+        <label for="nombre">Nombre:</label> 
+
+        <!-- name: sirve para enviar el formulario a algún servido (LLAVE: Valor) -->
+        <input type="text" placeholder="Nombre" id="nombre"  name="nombre" ><br>
+        <input value="rober@gmail.com" type="email" placeholder="Email" id="email"  name="email" ><br>
+        <input type="password" placeholder="Password" id="Password"  name="password" ><br>
+        <input type="radio" id="radio" name="radio" ><br>
+        <input type="checkbox" id="checkbox" name="checkbox" ><br>
+        <input type="file" id="file" name="file" ><br>
+        <textarea name="textarea" id="textarea" cols="40" rows="10"  placeholder="Escribir comentarios aquí..."></textarea><br>
+        
+        <!-- VALORES POR DEFECTO EN INPUT Y EN TEXTAREA -->
+        <hr>
+        <input type="text" value="Valor por defecto"><br>
+        <textarea >Valor por defecto</textarea><br>
+
+        <input type="submit" value="Enviar" id="submit" name="submit" ><br>
+    </form>
+</body>
+
 </html>
