@@ -3,11 +3,88 @@
 
 <head>
     <title>APP</title>
+    <style>
+        table, th, td {
+            border: 1px
+            solid black
+            
+        }
+
+        /* Hacer mas ancha la tabla */
+        table { 
+            width: 300px;
+        }
+    </style>
 </head>
 
 <body>
     <h1>App Service</h1>
+
+    <!-- LISTAS: Listas desordenadas -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </ul>
+    <!-- LISTAS: Listas Ordenadas -->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 1</li>
+        <li value="30">Elemento 2</li>  <!-- Que los empiece a ordenar desde un valor especifico -->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </ol>
+
+    <!-- lISTAS: Listas y sub listas -->
+    <ul>
+        <li>Elemento 1
+            <ul>
+                <li>SubElemento 1</li>
+                <li>SubElemento 2</li>
+            </ul>
+        </li>
+        <li>Elemento 2
+            <ul>
+                <li>Sub Elemento 3</li>
+                <li>Sub Elemento 4</li>
+            </ul>
+        </li>
+    </ul>
+    
+    
+    
+    
     <hr>
+    <!-- TABLAS -->
+    <table >
+        <thead>
+            <tr> <!-- Crear fila -->
+                <th>Producto</th> <!-- Encabezado de columna  -->
+                <th>Precio</th> <!-- Encabezado de columna -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Casa</td> <!-- Fila  -->
+                <td>$200 USD</td> <!-- Fila  -->
+            </tr>
+            <tr>
+                <td>Moto</td> <!-- Fila  -->
+                <td>$100 USD</td> <!-- Fila -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: $300 USD</td>
+        </tfoot>
+    </table>
+    <hr>
+    <h4>Ir al blog de prueba:</h4>
+    <a href="./blog.html">Clic para ir al blog</a>
+    <hr>
+
+
+
     <p>
         Este es un texto <span style="color: red;">importante</span> en un párrafo.
         <br>
