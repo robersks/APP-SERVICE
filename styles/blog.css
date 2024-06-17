@@ -1,0 +1,116 @@
+/* Seleccionar a un ID */
+#titulo_blog {
+    color: tomato;
+}
+
+/* Seleccionar CLASS */
+.texto {
+    color: rgb(180, 6, 180);
+}
+
+
+/* Apuntar a una CLASS */
+.img_post {
+    width: 200px;
+    
+}
+
+/* Seleccionar los parrafos de classe "texto" */
+p.texto {
+    color: rgb(25, 0, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Seleccionar los parrafos que estan dentro de un div*/
+div p {
+    color: orangered;
+}
+
+
+/* Seleccionar todos los h2 que estan dentro de un article */ 
+article h2 {
+    /* color: rgb(255, 0, 179); */
+    font-size: 40px;
+    /*border: 1px black solid;*/
+    /* border-style: solid; */
+    /* border-color: orange; */
+    /* background-color: rgb(180, 6, 180, 50); */
+    /* border-radius: 5px; */
+    /* border-width: 1px; */
+    padding: 20px;   
+}
+
+body {
+    background-image: url(/img/fondo_cielo.webp);
+    background-size: cover ;
+    background-position: center;
+}
+
+.post {
+    background-color: rgb(192, 91, 192);
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    /* background-image: url(/img//degrade.jpg); */
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 500px;
+    
+}
+
+article h2  {
+    text-align: center;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Quitar separacion de bordes de tabla */
+}
+
+th,td {
+    border: solid 2px black; /* Poner bordes de celdas */
+    padding: 5px;
+    
+}
+
+th { /* Poner fondo a la cabecera de la tabla */
+    background-color: rgb(201, 169, 26);
+    color: black;
+}
+
+tr { /*Ponerle color a todas las filas de la tabla */
+    background-color: gray;
+}
+
+tr:nth-child(even) { /* Cada fila impar */
+    background-color: rgba(213, 228, 76, 0.774); /* Cambiar fondo*/
+}
+
+tr:hover{ /* Cuando el cursor está sobre la fila */
+    background-color: rgb(226, 1, 1); /* Cambiar el color de la fila */
+    cursor: pointer; /* Cambia el cursor por una manito */
+}
+
+
+
+.inline {
+    display: inline;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+

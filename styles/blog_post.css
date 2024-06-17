@@ -1,0 +1,57 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px; /* Quitar margenes */
+    background-color: #efefef; /*Color gris claro*/
+}
+
+header {
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    margin:0 auto;
+}
+
+section article {
+    background-color: white;
+    margin:1rem 0 ;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.img_post {
+    max-width: 100%;
+}
+
+section article:hover {
+    transition: box-shadow 0.3s ease ;
+    cursor: pointer; /* Cambia el cursor por una manita cuando está encima */
+    box-shadow: 0 0.1rem 0.4rem  rgba(0,0,0, 0.3); /* Sombra bonita a las tarjetas*/
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}

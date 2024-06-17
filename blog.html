@@ -2,45 +2,95 @@
 <html >
     <head>
         <title>Blog</title>
-        <style>
-            /* Seleccionar CLASS */
-            .img_post {
-                width: 250px;
-            }
-
-            /* Seleccionar ID */
-            #titulo_blog {
-                color: orangered;
-            }
-        </style>
+        <link rel="stylesheet" href="/styles/blog.css" >
     </head>
     <body>
+
         <header>  <!-- Encabezado / Menú -->
             <h1 id="titulo_blog">Nombre del blog</h1>
         </header>
         <hr>
+
+        <br><br>
+        <div>
+            <div class="inline" style="background-color: chocolate;">
+                CAJA 1
+            </div>
+            <div class="inline" style="background-color: cadetblue;" > 
+                CAJA 2
+            </div>
+            <div class="inline" style="background-color: cadetblue;" > 
+                CAJA 3
+            </div>
+           
+        </div>
+        <br>
+
+        <section>
+            <h2>Tabla</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rober</td>
+                        <td>Barreto</td>
+                    </tr>
+                    <tr>
+                        <td>laura</td>
+                        <td>Peña</td>
+                    </tr>
+                    <tr>
+                        <td>Danna</td>
+                        <td>Ruiz</td>
+                    </tr>
+                    <tr>
+                        <td>Lorena</td>
+                        <td>Florez</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </section>
+
         <section> <!-- Secciones -->
+
             <article class="post">
                 <h2>Título 1</h2>
                 <p>Descripción</p>
                 <img class="img_post" src="img/imagen_blog.png"  alt="Imagen del blog">
-                <p>
-                    Texto de prueba, es un parrafo de prueba para el bog
+                <p class="texto">
+                    Texto de prueba, es un parrafo de prueba para el bog. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo ea architecto laboriosam explicabo tenetur eveniet fuga? Doloremque quidem quis aspernatur cumque ducimus. Veritatis quibusdam omnis modi placeat cupiditate, aliquid illum?
                 </p>
             </article>
+
             <article class="post">
                 <h2>Título 2</h2>
                 <p>Descripción del post #2</p>
                 <img class="img_post" src="/img/imagen_blog2.png"  alt="img 2">
-                <p>Parrafo del segundo articulo </p>
+                <p class="texto">Parrafo del segundo articulo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum minus pariatur dolor illo, vero quasi unde tenetur iste at officia, nulla assumenda vitae harum dignissimos amet eligendi. Labore, facilis veritatis. </p>
             </article>
+
             <article class="post">
                 <h2>Título 3</h2>
                 <p>Descricion del tercer parrafo</p>
                 <img class="img_post" src="/img/imagen_blog3.png" alt="imagen del logo 3" >
+                <p class="texto">Parrafo del tercer articulo . Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptates eos aliquid itaque architecto natus quos labore iure dolores corporis iusto, quas quis optio dolore dolorum facilis, fugiat ullam veritatis? </p>
             </article>
+            <hr>
+            <div>
+                <p>
+                    DIV-  ( Seleccionar los parrafos que estan dentro de un div ) . PONER COLOR NARANJA . Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi totam natus suscipit ex cupiditate reprehenderit fugiat, commodi dolor labore quaerat dolorem aut consectetur quibusdam, quam ducimus assumenda beatae? Voluptas, obcaecati!
+                </p>
+            </div>
         </section>
         <hr>
+
         <footer> <!-- Pie de página -->
             <a href="#titulo_blog">Ir al principio</a><br>
             <a href="mailto:example@example.com">example@example.com</a>
